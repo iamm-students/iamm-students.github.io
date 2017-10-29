@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="google-site-verification" content="28crcuD2PFQ62QytLh5gxN9T_he7jYuiN7aWp4LRack" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Artemiy Sergeev">
+
+    <title>Главная</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/dist/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="/dist/css/bootstrap-theme.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/main.css" rel="stylesheet">
+
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?101"></script>
+
+    <!-- Put this script tag to the <head> of your page -->
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?101"></script>
+
+    <script type="text/javascript">
+      VK.init({apiId: 3965483, onlyWidgets: true});
+    </script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/dist/js/html5shiv.js"></script>
+      <script src="/dist/js/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+      p
+      {
+        text-indent: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Fixed navbar -->  
+    <div class="navbar navbar-fixed-top">  
+      <div class="container">  
+        <div class="navbar-header">  
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">  
+            <span class="icon-bar"></span>  
+            <span class="icon-bar"></span>  
+            <span class="icon-bar"></span>  
+          </button>  
+          <a class="navbar-brand" href="/">Прикладная математика</a>  
+        </div>  
+        <div class="collapse navbar-collapse navHeaderCollapse">  
+          <ul class="nav navbar-nav">  
+            <li><a href="/">Главная</a></li> <!-- class="active" -->  
+            <li class="dropdown">  
+              <a href="" class="dropdown-toggle" data-toggle="dropdown">Предметы <b class="caret"></b></a>  
+              <ul class="dropdown-menu">  
+                <li><a href="/angeom.html">Аналитическая геометрия и линейная алгебра</a></li>  
+                <li><a href="/databases.html">Базы данных</a></li>  
+                <li><a href="/bzhd.html">БЖД</a></li>  
+                <li><a href="/discrette.html">Дискретная математика</a></li>  
+                <li><a href="/matan.html">Математический анализ</a></li>  
+                <li><a href="/methopt.html">Методы оптимизации</a></li>  
+                <li><a href="/sppo.html">СППО</a></li>  
+                <li><a href="/teormech.html">Теоретическая механика</a></li>  
+                <li><a href="/teorver.html">Теория вероятностей</a></li>  
+                <li><a href="/physic.html">Физика</a></li>  
+                <li><a href="/phylosophy.html">Философия</a></li>  
+                <li><a href="/fan.html">Функциональный анализ</a></li>  
+                <li><a href="/numerical.html">Численные методы</a></li>  
+                <li><a href="/yaprog.html">Языки программирования</a></li>  
+              </ul>  
+            </li>  
+            <li id="contacts"><a>Контакты</a></li>  
+          </ul>  
+        </div>  
+      </div>  
+    </div>
+
+    <div class="container" id="wrap">
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="page-header">
+          <h1>Welcome</h1>
+        </div>
+        <p>Добро пожаловать на студенческий архив кафедры "Прикладной математики" Санкт-Петербургского Государственного Политехнического университета.<br /><br />
+        Здесь вы можете найти много полезных ссылок, файлов, конспектов и решебников для учебы.</p>
+        <!-- Put this div tag to the place, where the Like block will be -->
+        <div id="vk_like" class="pull-right"></div>
+        <script type="text/javascript">
+          VK.Widgets.Like("vk_like", {type: "button"});
+        </script>
+      </div>
+      <div class="jumbotron" style="padding-top: 10px">
+        <h1>Комментарии</h1>
+        <!-- Put this div tag to the place, where the Comments block will be -->
+        <div id="vk_comments"></div>
+        <script type="text/javascript">
+          VK.Widgets.Comments("vk_comments", {limit: 20, attach: "photo,link", autoPublish: 0});
+        </script>
+      </div>
+    </div> <!-- /container -->
+    <footer>
+      <div class="navbar navbar-fixed-bottom navbar-default">
+        <div class="container">
+          <p class="navbar-text">Site built by <a href="/contacts.html" target="_top">Sergeev Artemiy</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/dist/js/jquery.js"></script>
+    <script src="/dist/js/bootstrap.min.js"></script>
+    <script src="/dist/js/holder.js"></script>
+
+    <script src="/js/ref.js"></script>
+  </body>
+</html>

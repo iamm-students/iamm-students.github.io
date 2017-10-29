@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /stat/
+Disallow: /panel/
+Disallow: /admin/
+Disallow: /secure/
+Disallow: /informer/
+Disallow: /mchat
+Disallow: /search
+Disallow: /shop/order/
+
+Sitemap: http://group1057.narod.ru/sitemap1.xml
